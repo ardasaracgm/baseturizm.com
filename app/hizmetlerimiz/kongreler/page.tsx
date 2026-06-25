@@ -1,0 +1,2 @@
+import PageHero from '@/components/PageHero'
+export default function Page(){return <><PageHero title="Kongreler"/><main className="content"><div className="container"><p>Kongre, sempozyum ve kurumsal toplantılarınız için proje planlamadan katılımcı yönetimine, salon kurulumundan ulaşım ve konaklamaya kadar uçtan uca destek sağlıyoruz.</p><div className="list"><div>Projelendirme</div><div>Kayıt ve sekretarya</div><div>Otel konaklama</div><div>Toplantı salonları</div><div>Yiyecek-içecek</div><div>Ulaşım/transfer</div></div></div></main></>}
