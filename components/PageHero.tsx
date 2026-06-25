@@ -1,0 +1,1 @@
+export default function PageHero({title}:{title:string}){return <section className="page-hero"><div className="container"><div className="breadcrumb">Anasayfa / {title}</div><h1>{title}</h1></div></section>}
