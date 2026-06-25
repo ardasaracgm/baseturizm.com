@@ -1,0 +1,3 @@
+import PageHero from '@/components/PageHero'
+const items=['Etkinlik Organizasyonu','Temalı düğünler','Konserler','Bekarlığa Veda Partileri','Ödül Törenleri','Festivaller','Lansman Organizasyonları','Tatil Organizasyonları','Yurtdışı Tur Organizasyonları']
+export default function Page(){return <><PageHero title="Etkinlikler"/><main className="content"><div className="container"><p>Base Turizm olarak özel günlerinizi taçlandırmaya ve hayallerinizi zirveye taşımak için dünyanın her köşesinde temalarınızı gerçekleştirmeye hazırız.</p><div className="list">{items.map(i=><div key={i}>{i}</div>)}</div></div></main></>}
