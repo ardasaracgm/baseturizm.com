@@ -1,0 +1,3 @@
+import PageHero from '@/components/PageHero'
+const items=['Çalışan aidiyetini artırır','Satış performansını destekler','Hedef motivasyonunu güçlendirir','Yönetici ve ekipleri bir araya getirir','Yeni ürün ve hizmetlerin aktarımını kolaylaştırır']
+export default function Page(){return <><PageHero title="Teşvik Gezileri"/><main className="content"><div className="container"><p>Base Turizm olarak firma personellerinizi ve bayilerinizi tatil/gezi organizasyonları ile motive ederek kurumsal hedeflerinizi destekliyoruz.</p><div className="list">{items.map(i=><div key={i}>{i}</div>)}</div></div></main></>}
